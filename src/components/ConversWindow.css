@@ -1,0 +1,35 @@
+.messageBlocA {
+    color: white;
+    background-color: #236FFF;
+    padding: 8px ;
+    width: 100%;
+    border-radius: 8px 0 8px 8px;
+}
+
+.messageBlocB {
+    color: white;
+    background-color: #6e6e6e;
+    padding: 8px ;
+    width: 100%;
+    border-radius: 0 8px 8px 8px;
+}
+
+.messageBlocC {
+    color: white;
+    background-color: #e2e5e5;
+    padding: 8px ;
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.apiMessage{
+    font-size: 16px;
+    overflow-wrap: break-word;
+    max-width: 98%;
+}
+
+.apiUsername{
+    align-self: flex-end;
+    font-size: 12px;
+    line-height: 0px;
+}

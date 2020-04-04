@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SpeakUp</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 5px; text-align: center; font-family: Roboto}
+    h1, h3 { margin: 0.5em;}
+    img { margin: 0 auto;}
+    div { display: flex; flex-direction: column;}
+  </style>
+</head>
+<body>
+  <h1>SpeakUp - Choix du parcours</h1>
+  <div>
+    <img src="https://image.flaticon.com/icons/svg/921/921132.svg" width="100" height="100">
+    <h3>Parcours Collaborateur</h3>
+    <a href="/?id=1&token=123#">Collaborateur #1 avec 1 ticket cloturé </a>(statut: "closed")
+    <a href="/?id=3&token=456#">Collaborateur #3 avec 1 ticket cloturé et 1 conversation initiée </a>(statuts: closed+pending)
+    <a href="/?id=4&token=789#">Collaborateur #4 avec 1 ticket en attente de psychologue </a>(statut: open)
+    <a href="/?id=5&token=111#">Collaborateur #5 jamais connecté à la solution </a>(statut: aucun)
+    <a href="/?id=4&token=101010#">Collaborateur #4 avec un mauvais lien</a>
+  </div>
+  <div>
+    <img src="https://image.flaticon.com/icons/svg/607/607548.svg" width="100" height="100">
+    <h3>Parcours Psychologue</h3>    
+    <a href="/#/admin">Page "login" du psychologue</a>
+    <p>Logins possibles: john.doe@gmail.com / olivier@gmail.com / mdr@gmail.com / serge@gmail.com / momo@gmail.com</p>
+  </div>
+</body>
+</html>

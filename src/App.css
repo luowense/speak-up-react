@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+h2, p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.psyWindow{
+  width: calc(100vw - 520px);
+}
+
+.primary_button{
+  background-color: #236fff;
+  width: 128px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  margin: 16px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.primary_button:hover{
+  background-color: #034acf;
+}
+
+.primary_button:active{
+  transform: scale(0.8) ;
+  transition-duration: 1s;
+}
+
+.primary_button:focus{
+  outline: 0;
+}
+
+.danger_button{
+  background-color: #b00020;
+  width: 128px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  margin: 16px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.danger_button:hover{
+  background-color: #800017;
+}
+
+.danger_button:active{
+  transform: scale(0.8) ;
+  transition-duration: 1s;
+}
+
+.danger_button:focus{
+  outline: 0;
+}
+
+.secondary_button{
+  background-color: white;
+  width: 128px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  margin: 16px;
+  color: #236fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.secondary_button:hover{
+  background-color: rgb(236, 237, 243);
+  color: #034acf;
+}
+
+.secondary_button:active{
+  transform: scale(0.95) ;
+  transition-duration: 0.4s;
+}
+
+.secondary_button:focus{
+  outline: 0;
+}
+
+.menu_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #236fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0px;
+  margin: 16px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu_button:hover{
+  background-color: rgb(236, 237, 243);
+  color: #236fff;
+}
+
+.menu_button:active{
+  transform: scale(0.95) ;
+  transition-duration: 0.4s;
+}
+
+.menu_button:focus{
+  outline: 0;
+}
+
+.onglet {
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  margin-top: 8px;
+  /* font-size: calc(8px + (14 - 8) * ((100vw - 300px) / (1600 - 300))); */
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 0;
+  border-color: yellow;
+  border-top: 1px #e3e3e3 solid;
+}
+
+.onglet:hover{
+  background-color: rgb(251, 251, 251);
+}
+
+.onglet:focus{
+  outline: 0;
+}
+
+.status_button{
+  background-color: white;
+  width: 128px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  margin: 16px;
+  color: #236fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.status_button:hover{
+  background-color: rgb(236, 237, 243);
+  color: #034acf;
+}
+
+.status_button:active{
+  transform: scale(0.95) ;
+  transition-duration: 0.4s;
+}
+
+.status_button:focus{
+  outline: 0;
+}
+
+.voyant {
+  /* border: 1px rgb(226, 226, 226) solid; */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.ticket{
+  width: 90%;
+  height: 150px;
+  margin: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.ticketInactiv{
+  width: 90%;
+  height: 150px;
+  margin: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.08);
+}
+
+.ticketActiv{
+  border: #236fff 2px solid;
+  width: 90%;
+  height: 150px;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.18);
+}
+
+.ticket:hover{
+  border: #236fff 2px solid;
+  padding: 10px;
+  box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.18);
+  transition-duration: 0.2s;
+  transform: scale(1.02)
+}
+
+.ticket:active{
+  transform: scale(0.98) ;
+  transition-duration: 0.4s;
+}
+
+.ticket p{
+  margin: 0;
+}
+
+.ticketActiv p{
+  margin: 0;
+}
+
+.ticketInactiv p{
+  color: lightgrey;
+  margin: 0;
+}
+
+input{
+  border: none;
+  outline: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgb(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #BAC1C1; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E2E5E5;  
+}
